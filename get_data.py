@@ -35,7 +35,7 @@ df = uppercase_all_columns(df)
 df = df.select('COUNTRY','MFR_COMMONNAME','MFR_ID', 'MFR_NAME')
 
 #Write table into snowflake using the dataframe 
-df.write.mode("overwrite").save_as_table("CARS_MANUFACTER")
+df.write.mode("overwrite").save_as_table("CARS_MANUFACTURERS")
 
 #Close snowflake session 
 session.close()
