@@ -4,7 +4,7 @@ from snowflake.snowpark.session import Session
 from snowflake.snowpark import DataFrame
 
 #Set Connection parameters for snowflake 
-connection_parameters = {"account":"YOUR_ACCOUNT",
+connection_parameters = {"account":"YOUR_ACCOUNT" ,
 "user":"SNOWFLAKE_USER",
 "password": "SNOWFLAKE_USER_PASSWORD",
 "role":"SNOWFLAKE_USER_ROLE",
