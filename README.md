@@ -33,9 +33,7 @@ or
   pip install snowflake-snowpark-python pandas
 ```
 
-3. Optional: Install Jupyter extension on visual VS Code
-
-4. Update the connection parameters variable in 'get_data.py' or 'get_data.ipynb' if you're using jupyter
+3. Update the connection parameters variable in 'get_data.py' or 'get_data.ipynb' if you're using jupyter
 
 ```bash
   connection_parameters = {"account":"YOUR_ACCOUNT",
