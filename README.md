@@ -25,7 +25,7 @@ for this example you can use anaconda or virtualenv to create a Python 3.8, 3.9,
 2. Install snowpark in your pyhton environment using conda or pip
 
 ```bash
-  conda install --name {YOUR_ENVIROMENT} snowflake-snowpark-python pandas
+  conda install --name {YOUR_ENVIRONMENT} snowflake-snowpark-python pandas
 
 ```
 or
